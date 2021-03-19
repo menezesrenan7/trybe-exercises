@@ -1,0 +1,25 @@
+body {
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 65px;
+    color: orange;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+p {
+    font-weight: 600;
+    font-size: 3em;
+}
+
+#favorite-color {
+    background-color: aqua;
+    line-height: 40px;
+    font-style: italic;
+}
+
+.paragrafo-lista {
+    background-color: bisque;
+}
