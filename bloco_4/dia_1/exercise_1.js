@@ -6,3 +6,7 @@ subtracao = a - b;
 multiplicacao = a * b;
 divisao = a / b;
 resto = a % b;
+
+function sum(a, b) {
+    return a + b;
+}
