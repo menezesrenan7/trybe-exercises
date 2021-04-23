@@ -1,3 +1,10 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
 body {
 
 }
@@ -25,10 +32,11 @@ figcaption {
 @media screen and (min-width: 470px) {
     body {
         margin: 0 5%;
-        background-color: red;
+        /* background-color: red; */
     }
     
     div {
+        /* box-sizing: border-box; */
         display: flex;
         flex-wrap: wrap;
         justify-content: center;

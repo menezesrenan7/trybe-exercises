@@ -55,9 +55,12 @@ submitButton.addEventListener('click', (event) => {
 
 // Monta uma <div> com o consolidado dos dados que foram inseridos no formulário.
 const form = document.getElementById('cv-form');
+const backUp = document.createElement('div');
 function getFormAnswer() {
   const formData = new FormData(form);
   for (let pair of formData.entries()) {
-    console.log(pair);
+    
   }
+  backUp.innerText = formData.entries();
+  console.log(backUp);
 }
