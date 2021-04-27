@@ -9,3 +9,18 @@ const maiorPalavra = frase => {
   return array[indexlargestNumber];
 }
 console.log(maiorPalavra('Oi, tudo bem com você?'));
+
+// Gabarito
+// const largestWord = frase => {
+//   let array = frase.split('')
+//   let result = '';
+//   let maxlength = 0;
+
+//   for (const word of array) {
+//     if (word.length > maxlength) {
+//       maxlength = word.length;
+//       result = word;
+//     }
+//   }
+//   return word;
+// }
