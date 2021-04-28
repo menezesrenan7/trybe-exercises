@@ -55,3 +55,8 @@ console.log(totalStudents(allLessons));
 // Exercício 7.
 const getValueByNumber = (obj, position) => Object.values(obj)[position];
 console.log(getValueByNumber(lesson1, 0));
+
+// Exercício 8.
+const verifyPair = (obj, keyName, keyValue) => obj[keyName] === keyValue;
+
+console.log(verifyPair(lesson3, 'turno', 'noite'));
