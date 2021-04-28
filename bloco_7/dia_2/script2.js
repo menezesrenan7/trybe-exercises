@@ -27,3 +27,7 @@ console.table(lesson2);
 // Exercício 2.
 const keyList = obj => Object.keys(obj);
 console.log(keyList(lesson3));
+
+// Exercício 3.
+const objectSize = obj => Object.keys(obj).length;
+console.log(objectSize(lesson3));
