@@ -31,3 +31,7 @@ console.log(keyList(lesson3));
 // Exercício 3.
 const objectSize = obj => Object.keys(obj).length;
 console.log(objectSize(lesson3));
+
+// Exercício 3.
+const objectValues = obj => Object.values(obj);
+console.log(objectValues(lesson3));
