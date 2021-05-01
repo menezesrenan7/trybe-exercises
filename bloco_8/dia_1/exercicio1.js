@@ -11,5 +11,3 @@ const newEmployee = (fullName) => ({
   nomeCompleto: fullName,
   email: fullName.toLowerCase().split(' ').join('_') + '@trybe.com'
 })
-
-console.log(newEmployees());
