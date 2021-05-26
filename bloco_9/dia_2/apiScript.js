@@ -11,5 +11,5 @@ const fetchJoke = () => {
     .then(result => result.json)
     .then(response => console.log(response));
 };
-fetchJoke();
+
 // window.onload = () => fetchJoke();
